@@ -1,0 +1,6 @@
+nexus:
+  build: .
+  ports:
+    - "10081:8081"
+  volumes:
+    - ./work:/nexus/sonatype-work
